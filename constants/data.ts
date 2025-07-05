@@ -3,7 +3,7 @@ import images from "./images";
 
 export const cards = [
   {
-    title: "Card 1",
+    title: "Cards 1",
     location: "Location 1",
     price: "$100",
     rating: 4.8,
@@ -11,7 +11,7 @@ export const cards = [
     image: images.newYork,
   },
   {
-    title: "Card 2",
+    title: "Cards 2",
     location: "Location 2",
     price: "$200",
     rating: 3,
@@ -19,7 +19,7 @@ export const cards = [
     image: images.japan,
   },
   {
-    title: "Card 3",
+    title: "Cards 3",
     location: "Location 3",
     price: "$300",
     rating: 2,
@@ -27,7 +27,7 @@ export const cards = [
     image: images.newYork,
   },
   {
-    title: "Card 4",
+    title: "Cards 4",
     location: "Location 4",
     price: "$400",
     rating: 5,
