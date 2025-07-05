@@ -1,4 +1,5 @@
 🏡 Real Estate Mobile App
+
 A modern full-stack mobile app to browse and explore real estate properties, built with React Native, TypeScript, Appwrite, and NativeWind.
 
 ✨ Features
