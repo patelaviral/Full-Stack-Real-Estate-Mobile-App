@@ -24,9 +24,7 @@ Backend	Appwrite (Database + Auth)
 Auth	Google OAuth via Appwrite
 Dev Tools	VSCode, Git, Expo CLI
 
-📸 Screenshots
-(Add screenshots here once available)
-You can use this placeholder:
+![image alt](https://github.com/patelaviral/Full-Stack-Real-Estate-Mobile-App/blob/3856c4418f2690cc07dba2abb4c534aa49a41918/Screenshot%202025-07-05%20095516.png)
 
 scss
 Copy
