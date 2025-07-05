@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+🏡 Real Estate Mobile App
+A modern full-stack mobile app to browse and explore real estate properties, built with React Native, TypeScript, Appwrite, and NativeWind.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+✨ Features
+🔐 Google Authentication via Appwrite OAuth
 
-## Get started
+🧭 Dynamic Routing using Expo Router
 
-1. Install dependencies
+🏠 Home, Explore, Profile, and Details screens
 
-   ```bash
-   npm install
-   ```
+📦 Real-time data from Appwrite Database
 
-2. Start the app
+🎨 Responsive UI using Tailwind (NativeWind)
 
-   ```bash
-   npx expo start
-   ```
+⚡ Clean architecture & scalable folder structure
 
-In the output, you'll find options to open the app in a
+🛠 Tech Stack
+Category	Tools/Frameworks
+Frontend	React Native (Expo), TypeScript
+Styling	Tailwind CSS (NativeWind)
+Routing	Expo Router
+Backend	Appwrite (Database + Auth)
+Auth	Google OAuth via Appwrite
+Dev Tools	VSCode, Git, Expo CLI
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+📸 Screenshots
+(Add screenshots here once available)
+You can use this placeholder:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+scss
+Copy
+Edit
+![Home Screen](./assets/screens/home.png)
+🚀 Getting Started
+Clone the repo:
 
-## Get a fresh project
+bash
+Copy
+Edit
+git clone https://github.com/your-username/real-estate-app.git
+Install dependencies:
 
-When you're ready, run:
+bash
+Copy
+Edit
+npm install
+Start Expo:
 
-```bash
-npm run reset-project
-```
+bash
+Copy
+Edit
+npx expo start
+Setup .env with your Appwrite credentials:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+ini
+Copy
+Edit
+APPWRITE_ENDPOINT=...
+APPWRITE_PROJECT_ID=...
+📂 Project Structure
+bash
+Copy
+Edit
+/app
+  /screens
+  /components
+  /lib
+  /constants
+/assets
+🧠 Learnings
+Hands-on with real-world Appwrite integration
 
-## Learn more
+Auth flow using Google OAuth
 
-To learn more about developing your project with Expo, look at the following resources:
+Clean and reusable component architecture in React Native
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Tailwind + NativeWind for scalable styling
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
