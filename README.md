@@ -1,73 +1,45 @@
-🏡 Real Estate Mobile App
+# 🏡 Real Estate Mobile App
 
-A modern full-stack mobile app to browse and explore real estate properties, built with React Native, TypeScript, Appwrite, and NativeWind.
+A modern full-stack mobile app to browse and explore real estate properties, built with **React Native**, **TypeScript**, **Appwrite**, and **NativeWind**.
 
-✨ Features
-🔐 Google Authentication via Appwrite OAuth
+---
 
-🧭 Dynamic Routing using Expo Router
+## ✨ Features
 
-🏠 Home, Explore, Profile, and Details screens
+- 🔐 Google Authentication via Appwrite OAuth  
+- 🧭 Dynamic Routing using Expo Router  
+- 🏠 Home, Explore, Profile, and Details screens  
+- 📦 Real-time data from Appwrite Database  
+- 🎨 Responsive UI using Tailwind (NativeWind)  
+- ⚡ Clean architecture & scalable folder structure  
 
-📦 Real-time data from Appwrite Database
+---
 
-🎨 Responsive UI using Tailwind (NativeWind)
+## 🛠 Tech Stack
 
-⚡ Clean architecture & scalable folder structure
+| Category     | Tools/Frameworks                    |
+|--------------|--------------------------------------|
+| **Frontend** | React Native (Expo), TypeScript      |
+| **Styling**  | Tailwind CSS (NativeWind)            |
+| **Routing**  | Expo Router                          |
+| **Backend**  | Appwrite (Database + Auth)           |
+| **Auth**     | Google OAuth via Appwrite            |
+| **Dev Tools**| VSCode, Git, Expo CLI                |
 
-🛠 Tech Stack
-Category	Tools/Frameworks
-Frontend	React Native (Expo), TypeScript
-Styling	Tailwind CSS (NativeWind)
-Routing	Expo Router
-Backend	Appwrite (Database + Auth)
-Auth	Google OAuth via Appwrite
-Dev Tools	VSCode, Git, Expo CLI
+---
 
 ![image alt](https://github.com/patelaviral/Full-Stack-Real-Estate-Mobile-App/blob/3856c4418f2690cc07dba2abb4c534aa49a41918/Screenshot%202025-07-05%20095516.png)
 
-scss
-Copy
-Edit
-![Home Screen](./assets/screens/home.png)
-🚀 Getting Started
-Clone the repo:
+## 🧠 Learnings
+Integrated real-world Appwrite backend with frontend
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/real-estate-app.git
-Install dependencies:
+Implemented OAuth flow using Google sign-in
 
-bash
-Copy
-Edit
-npm install
-Start Expo:
+Built modular, reusable React Native components
 
-bash
-Copy
-Edit
-npx expo start
-Setup .env with your Appwrite credentials:
+Applied scalable and responsive UI with NativeWind (Tailwind CSS)
 
-ini
-Copy
-Edit
-APPWRITE_ENDPOINT=...
-APPWRITE_PROJECT_ID=...
-📂 Project Structure
-bash
-Copy
-Edit
-/app
-  /screens
-  /components
-  /lib
-  /constants
-/assets
-🧠 Learnings
-Hands-on with real-world Appwrite integration
+
 
 Auth flow using Google OAuth
 
